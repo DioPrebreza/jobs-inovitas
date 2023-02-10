@@ -18,17 +18,20 @@ const Header = () => {
           className={classes.resizeImg}
         />
       </video>
-      {/* <img
-        src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/bannermobile.png"
-        className={classes.resizeImg}
-        alt=""
-        style={{
-          height: "auto",
-          width: "1071px",
-          marginLeft: "0px",
-          marginTop: "-192px",
-        }}
-      ></img> */}
+      <div className={classes.textBanner}>
+        <h1>Kreativitätsraum für digitale Macher und Innovatoren</h1>
+        <h2>
+          #WirBewegenVieles <span>#JoiniNovitas</span>
+        </h2>
+        <button className={classes.buttonJobs}>
+          <a href="#jobs">Jobs</a>
+        </button>
+        <div className={classes.scrollDowns} id="scrollToBottom">
+          <div className={classes.mouseIcon}>
+            <div className={classes.wheel}></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

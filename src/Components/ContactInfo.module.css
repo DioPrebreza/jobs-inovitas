@@ -1,0 +1,64 @@
+.contactImg {
+  height: 265px;
+  background: url(https://jobs.inovitas.ch/wp-content/uploads/2022/06/Rectangle-36.png),
+    rgba(13, 146, 210, 0.3);
+}
+
+.contactInfoCard {
+  background: #fff;
+  width: 80%;
+  margin-top: -40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 0;
+  flex-shrink: 1;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+.cardTitle {
+  width: 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+
+  letter-spacing: -0.03em;
+
+  color: #111111;
+}
+
+.contactPerson img {
+  float: left;
+  margin-top: 20px;
+}
+
+.contactPerson h2 {
+  padding-top: 10px;
+  /* margin-bottom: -15px; */
+  margin-left: 120px;
+}
+
+.contactPerson p {
+  margin-top: -10px;
+  margin-left: 120px;
+}
+
+.contactEmail img {
+  float: left;
+  margin-top: 20px;
+}
+
+.contactEmail h2 {
+  padding-top: 35px;
+  /* margin-bottom: -15px; */
+  margin-left: 120px;
+}

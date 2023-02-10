@@ -1,0 +1,12 @@
+.slider {
+  /* height: 1000px; */
+  margin-top: 20px;
+}
+
+.slider img {
+  /* width: 500px; */
+}
+
+.swiperSlide {
+  margin-right: -250px !important;
+}

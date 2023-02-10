@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  z-index: 99;
+}
+
+.logo {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.logo h2 {
+  margin-right: 10px;
+}
+
+.navLinks {
+  margin-right: 60px;
+  margin-top: 30px;
+}
