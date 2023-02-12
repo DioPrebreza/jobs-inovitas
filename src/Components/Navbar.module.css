@@ -8,7 +8,19 @@
   z-index: 99;
 }
 
+.navbarActive {
+  background-color: rgba(13, 146, 210, 1);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  z-index: 99;
+}
+
 .logo {
+  width: 4 00px;
   display: flex;
   margin-left: 30px;
   margin-top: 30px;
@@ -19,6 +31,15 @@
 }
 
 .navLinks {
-  margin-right: 60px;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 50px 20px 20px;
+  /* margin-right: 60px; */
+  /* margin-top: 30px; */
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
 }
