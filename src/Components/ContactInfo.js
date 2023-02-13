@@ -4,7 +4,7 @@ import classes from "./ContactInfo.module.css";
 
 const ContactInfo = () => {
   return (
-    <div>
+    <div id="contact-info">
       <div className={classes.contactImg}></div>
       <div className={classes.contactInfoCard}>
         <h1 className={classes.cardTitle}>

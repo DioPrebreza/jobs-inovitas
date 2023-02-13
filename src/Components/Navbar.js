@@ -1,11 +1,24 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState();
+  const [burger, setBurger] = useState(false);
+
+  const showBurgerMenu = () => {
+    if (!burger) {
+      setBurger(true);
+    }
+
+    if (burger) {
+      setBurger(false);
+    }
+  };
+
   const changeBackground = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 66) {
       setNavbar(true);
     } else {
@@ -29,11 +42,33 @@ const Navbar = () => {
       </div>
       <div className={classes.navLinks}>
         <h3>
-          <a href="/">Kontakt</a>
+          <a href="#contact-info">Kontakt</a>
         </h3>
         <h3>
-          <a href="/">Jobs</a>
+          <a href="#jobs">Jobs</a>
         </h3>
+      </div>
+      <div className={classes.burger}>
+        <FontAwesomeIcon
+          className={classes.bars}
+          icon={burger ? faTimes : faBars}
+          onClick={showBurgerMenu}
+        />
+        <div
+          className={
+            burger ? classes.burgerMenuShown : classes.burgerMenuHidden
+          }
+        >
+          <ul>
+            <li>
+              <a href="#contact-info">Kontakt</a>
+            </li>
+            <div className={classes.divider}></div>
+            <li>
+              <a href="#jobs">Jobs</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

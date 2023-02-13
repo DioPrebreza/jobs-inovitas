@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  height: 100px;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -11,6 +12,7 @@
 .navbarActive {
   background-color: rgba(13, 146, 210, 1);
   width: 100%;
+  height: 100px;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -20,13 +22,15 @@
 }
 
 .logo {
-  width: 4 00px;
+  width: 500px;
   display: flex;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .logo h2 {
+  margin-top: 25px;
   margin-right: 10px;
 }
 
@@ -42,4 +46,57 @@
   text-decoration: none;
   color: #fff;
   margin-left: 20px;
+}
+
+.burger {
+  display: none;
+}
+
+.bars {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.burgerMenuHidden {
+  display: none;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.burgerMenuShown {
+  background: rgba(13, 146, 210, 0.5);
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+
+.burgerMenuShown ul {
+  list-style: none;
+}
+
+.burgerMenuShown ul li {
+  font-size: 2em;
+}
+
+.burgerMenuShown a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 625px) {
+  .burger {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+  }
 }

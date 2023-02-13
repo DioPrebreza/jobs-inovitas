@@ -21,7 +21,7 @@ const jobs = [
 
 const JobsList = () => {
   return (
-    <div className={classes.jobsList}>
+    <div id="#jobs" className={classes.jobsList}>
       <h1 className={classes.listTitle}>
         Finde Deinen Job, den Du lieben wirst:
       </h1>
