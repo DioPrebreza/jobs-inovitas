@@ -1,0 +1,83 @@
+.womanTitle {
+  width: 90%;
+  margin: 30px auto 30px auto;
+  text-align: center;
+}
+
+.womanTitle h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 90%;
+  text-align: center;
+  color: #111111;
+}
+
+.womanTitle p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 174%;
+  text-align: center;
+  color: #9d9d9c;
+}
+
+.woman {
+  width: 80%;
+  margin: 0px auto 30px auto;
+  display: flex;
+}
+
+.womanText {
+  margin: 0px 0px 0px 100px;
+  padding: 0px 15px;
+}
+
+.womanText h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #111111;
+  margin-bottom: 0;
+}
+
+.womanText h3 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  color: #111111;
+  margin-bottom: 40px;
+}
+
+.womanText ul {
+  margin: 0px 0px 0px -38px;
+  padding: 0 0 0 15px;
+}
+
+.womanText ul li {
+  list-style: none;
+  position: relative;
+  padding: 5px 25px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 174%;
+  color: #9d9d9c;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.womanText ul li img {
+  width: 24px;
+  height: 24px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
