@@ -1,0 +1,44 @@
+/* .parallax {
+    background-image: url(/src/Images/parallax.png);
+    width: 100%;
+    height: 700px;
+} */
+.text_section3 h2 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 131.5%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    
+}
+.title {
+    margin: auto;
+}
+
+.text_section3 {
+    color: #fff;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.containerpara h5 {
+        font-size: 24px;
+}
+
+.clo, .clotwo, .clothree, .clofour, .clofive, .closix {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
