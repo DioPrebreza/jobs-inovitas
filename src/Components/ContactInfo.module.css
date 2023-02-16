@@ -62,3 +62,94 @@
   /* margin-bottom: -15px; */
   margin-left: 120px;
 }
+
+@media screen and (max-width: 966px) {
+  .contactInfoCard {
+    display: block;
+    height: 550px;
+    /* text-align: center; */
+  }
+
+  .cardTitle {
+    margin: 20px auto 30px auto;
+    /* text-align: center; */
+  }
+
+  .cardInfo {
+    width: 60%;
+    margin: 0px auto 0px auto;
+  }
+
+  .contactPerson {
+    margin: 0px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .cardTitle {
+    font-size: 1.5em;
+  }
+  .contactEmail {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .contactPerson img {
+    margin: 0px;
+  }
+
+  .contactPerson h2 {
+    margin-left: 90px;
+  }
+  .contactPerson p {
+    margin-left: 90px;
+  }
+
+  .contactEmail img {
+    display: none;
+  }
+
+  .contactEmail h2 {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactInfoCard {
+    height: 500px;
+  }
+
+  .cardTitle {
+    font-size: 1.1em;
+    line-height: 30px;
+  }
+
+  .contactPerson img {
+    margin-left: -10px;
+  }
+  .contactPerson h2 {
+    font-size: 1em;
+  }
+
+  .contactPerson p {
+    font-size: 0.8em;
+  }
+
+  .contactEmail {
+    font-size: 0.7em;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .contactInfoCard {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .contactInfoCard {
+    height: 500px;
+  }
+}

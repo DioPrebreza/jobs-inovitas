@@ -1,5 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,6 +13,11 @@ const Slider = () => {
         spaceBetween={0}
         slidesPerView={3}
         loop={true}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: true,
+        // }}
+        // modules={[Autoplay]}
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
       >

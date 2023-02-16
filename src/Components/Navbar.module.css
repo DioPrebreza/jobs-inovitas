@@ -100,3 +100,12 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .logo h2 {
+    display: none;
+  }
+  .logo img {
+    width: 200px;
+  }
+}
