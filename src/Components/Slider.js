@@ -9,8 +9,9 @@ const Slider = () => {
   return (
     <div className={classes.slider}>
       <Swiper
-        spaceBetween={50}
+        spaceBetween={0}
         slidesPerView={3}
+        loop={true}
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
       >
