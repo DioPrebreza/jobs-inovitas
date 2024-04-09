@@ -1,6 +1,5 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -24,98 +23,98 @@ const Slider = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery3.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery4.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery5.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery6.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery7.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery8.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery0.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery1.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery2.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery3.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery4.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery5.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery6.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img
             src="https://jobs.inovitas.ch/wp-content/uploads/2022/06/gallery7.jpeg"
-            alt="slider-photo"
+            alt="slider"
             style={{ width: "300px", height: "450px" }}
           />
         </SwiperSlide>

@@ -4,7 +4,6 @@ import "./Map.css";
 
 const Map = () => {
   const [isShown, setIsShown] = useState(false);
-  const slide = () => {};
   return (
     <div
       className="mapContainer"
@@ -24,6 +23,7 @@ const Map = () => {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         className="map"
+        title="frame1"
       ></iframe>
       <div className="contact">
         <div className="contact-card">
@@ -41,9 +41,7 @@ const Map = () => {
               info@inovitas.ch
               <br />
             </a>
-            <a target="_blank" href="https://www.inovitas.ch">
-              www.inovitas.ch
-            </a>
+            <a href="https://www.inovitas.ch">www.inovitas.ch</a>
           </div>
         </div>
       </div>

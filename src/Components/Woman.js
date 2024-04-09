@@ -30,23 +30,23 @@ const Woman = () => {
           </h3>
           <ul className={classes.womanList}>
             <li>
-              <img src={require("../Images/checked.png")} />
+              <img src={require("../Images/checked.png")} alt="checked" />
               <p>Dein Fachwissen aus der Aus- und Weiterbildung anwenden</p>
             </li>
             <li>
-              <img src={require("../Images/checked.png")} />
+              <img src={require("../Images/checked.png")} alt="checked" />
               <p>Dein Know-How und Deine Erfahrung einbringen</p>
             </li>
             <li>
-              <img src={require("../Images/checked.png")} />
+              <img src={require("../Images/checked.png")} alt="checked" />
               <p>Von den vielfältigen Kompetenzen im Team lernen</p>
             </li>
             <li>
-              <img src={require("../Images/checked.png")} />
+              <img src={require("../Images/checked.png")} alt="checked" />
               <p>Gemeinsam neue Herausforderung anpacken</p>
             </li>
             <li>
-              <img src={require("../Images/checked.png")} />
+              <img src={require("../Images/checked.png")} alt="checked" />
               <p>Ein Game-Changer werden und innovative Ideen verwirklichen</p>
             </li>
           </ul>
